@@ -1,19 +1,15 @@
-# PDF Assistant with Langchain4J, Spring Boot and AstraDB
+# Smart PDF Chat with Langchain4J, Spring Boot and AstraDB
 
-This repository contains source code for the PDF Assistant application, that can answer questions based on the information contained in a given PDF.
+This repository contains source code for the Smart PDF Chat application, that can answer questions based on the information contained in a given PDF.
 
 It uses the LangChain4J framework to interact with OpenAI LLM, AstraDB to store the embeddings, and Spring Boot as the framework to create REST API.
 
-Link to Video Tutorial: https://youtu.be/mvvRXu_KJSU
-
-You can find the application running against Ollama with Llama3 and PGVector Embedding store in the branch - `ollama_with_pgvector`
-
-Here is the question I asked our application
+Here is the question I asked the application
 ```text
 What is cassandra, why to use Cassandra ?
 ```
 
-And here is the answer provided by our application
+And here is the answer provided by the  application
 ```text
 **What is Cassandra?**
 
